@@ -1,0 +1,45 @@
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    color: rgb(94, 16, 167);
+    text-align: center;
+}
+
+.Productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(rgb(238, 191, 238), rgb(240, 193, 106));
+}
+
+.Producto {
+    background: linear-gradient(rgb(238, 191, 238), rgb(240, 193, 106));
+    color: rgb(46, 10, 80);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: white;
+    align-items: center;
+}
+
+.imagenes-prod {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.formasDePago li {
+    margin: 1rem;
+    list-style: square;
+    margin-left: 2rem;
+}
+
+.descripcion {
+    text-align: center;
+}
+

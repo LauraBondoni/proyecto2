@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/pez-payaso.png">
+    <title>Laurana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Hola!</h1>
+        <div id="logo"> 
+        <img src="images/logo.png" alt="Logo de Laurana" width="200">
+    </div>
+    </header>
+    <nav>
+        <ul class="nav-list">
+            <li> <a href="index.html"> Inicio </a> </li>
+            <li> <a href="#seccionSobreMi"> Sobre Mi </a></li>
+            <li> <a href="#creaciones"> Creaciones </a> </li>
+            <li> <a href="#opiniones"> Reseñas </a> </li>
+            <li> <a href="#contact"> Contacto </a> </li>
+        </ul>
+    </nav>
+    <main>
+
+        <section class="sobreMi" id="seccionSobreMi">
+            <div class="contenedorSobreMi">
+                <p>
+                    Soy Laura Mercedes Bondoni. Mi abuela Mercedes me enseñó a tejer cuando era chica y es algo que me conecta con ella por siempre
+                    y con las virtudes de mis ancestras. Estudié Publicidad y me dediqué al diseño gráfico, pero nunca
+                    dejé de amar el tejido. Hace unos años desde una editorial me dieron la oportunidad de hacer unos
+                    libros de tejido. Algunas de las obras creadas para esos libros las pongo ahora a disposición.
+                    Agradezco a Laura Oholeguy, Andrea Suarez y a la Editorial Clasa por confiar en mi trabajo.
+                </p>
+            </div>
+        </section>
+
+        <section id="creaciones">
+            <h2>creaciones</h2> 
+            <div id="contenedorCreaciones" class="creaciones">
+
+            </div>
+
+        <section id="carrito">
+            <ul>
+
+            </ul>
+            <p>Total a pagar: $0</p>
+            <input id="boton-borrar" type="button" value="Borrar">
+            <input id="boton-pagar" type="button" value="Ir a pagar">
+            <p id="mensajeCarrito"></p>
+        </section>    
+
+            <!-- 
+            <div class="Producto">
+                <img src="images/p-oveja.jpg" alt="titere oveja" width="200px" class="imagenes-prod">
+                <h3>Títere de dedo Oveja</h3>
+                <p class="descripcion">Tejido a crochet. Ideal para niños de 3 a 7 años.</p>
+            
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto" id="seccionProductos">
+                <img src="images/p-conejo.jpg" alt="titere conejo" width="200px" class="imagenes-prod">
+                <h3>Títere de dedo Conejo</h3>
+                <p class="descripcion">Tejido a crochet. Ideal para niños de 3 a 7 años.</p>
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto">
+                <img src="images/p-chancho.jpg" alt="titere chancho" width="200px" class="imagenes-prod">
+                <h3>Títere de dedo Chancho</h3>
+                <p class="descripcion">Tejido a crochet. Ideal para niños de 3 a 7 años.</p>
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto">
+                <img src="images/p-monstruo.jpg" alt="cesto monstruo" width="200px" class="imagenes-prod">
+                <h3>Cesto para papeles Monstruoso</h3>
+                <p class="descripcion">Tejido a crochet. Decoración para habitación infantil. A divertirse aprendiendo a
+                    tirar los papeles en el cesto monstruo comepapeles!</p>
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto">
+                <img src="images/p-gorrito1.jpg" alt="gorrito infantil" width="200px" class="imagenes-prod">
+                <h3>Gorrito infantil con minipompones</h3>
+                <p class="descripcion">Tejido a 2 agujas. Para niños de 4 a 6 años.</p>
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto">
+                <img src="images/p-gorrito2.jpg" alt="gorrito para bebé" width="200px" class="imagenes-prod">
+                <h3>Gorrito de bebé</h3>
+                <p class="descripcion">Tejido a 2 agujas. Para una beba muy coqueta. De 6 meses a 1 año</p>
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto">
+                <img src="images/p-bufanda.jpg" alt="niña con bufanda" width="200px" class="imagenes-prod">
+                <h3>Bufanda infantil con bosillos</h3>
+                <p class="descripcion">Tejido a 2 agujas. Ideal para niños de 5 a 8 años. Con bolsillos incorporados,
+                    para guardar caramelos, juguetes o abrigarse las manitos.</p>
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto">
+                <img src="images/p-bolso.JPG" alt="bolso tejido" width="200px" class="imagenes-prod">
+                <h3>Bolso tejido</h3>
+                <p class="descripcion">Tejido a 2 agujas. Un toque de romanticismo y rusticidad.</p>
+                <button type="button"> <a href=""></a> Comprar </button>
+            </div>
+
+            <div class="Producto">
+                <img src="images/p-poncho.jpg" alt="mujer con poncho" width="200px" class="imagenes-prod">
+                <h3>Poncho básico</h3>
+                <p class="descripcion">Tejido a 2 agujas. Un toque de estilo y abrigo para el look otoñal. Talle único.
+                </p>
+                <button type="button"> Comprar </button>
+            </div>
+        -->
+
+        </section>
+        <section>
+            <h2> Formas de pago </h2>
+            <ul class="formasDePago">
+                <li> Modo </li>
+                <li> Mercado Pago </li>
+                <li> Cuenta DNI </li>
+                <li> Transferencias bancarias </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2> Reseñas </h2>
+            <div class="Reseñas" id="opiniones">
+                <div class="card">
+                    <p>
+                        "Me encantaron los títeres de dedo, los adquirí para el cumple de mi hijo como souvenir y
+                        quedaron todos re contentos" <br><br> Corina Gonzalez
+                    </p>
+
+                </div>
+
+                <div class="card">
+                    <p>
+                        "Cumplió siempre con los plazos de entrega pactados, muy amable." <br><br> Mercedes Reyes
+                    </p>
+
+                </div>
+
+                <div class="card">
+                    <p>
+                        "Me encantó el gorrito de bebé, muy buena calidad de los materiales y buena terminación" <br>
+                        <br> Ana Trapero
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contacto" id="contact">
+            <div class="contenedor-contacto">
+                <form action="https://formspree.io/f/mvgoggdb" method="POST">
+                    <Label for="nombre">
+                        Nombre: <br>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </Label> <br> <br>
+                    <label for="email">
+                        Correo electrónico: <br>
+                        <input type="email" id="email" name="email" required>
+                    </label> <br><br>
+                    <label for="mensaje">
+                        Mensaje: <br>
+                        <textarea name="mensaje" id="mensaje" rows="4" cols="25" required></textarea>
+                    </label> <br>
+                    <button type="submit">
+                        Enviar
+
+                    </button>
+                    <button type="reset">
+                        Borrar
+                    </button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Mi sitio web - Laurana</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
